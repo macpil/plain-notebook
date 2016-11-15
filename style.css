@@ -1,0 +1,104 @@
+/*
+Threme Name: Plain Notebook
+Threme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: plain-notebook
+Tags:
+
+This threme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Plain Notebook is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {
+    background-color: white;
+    font-family: 'Georgia', serif;
+}
+
+a {
+    color: black;
+}
+
+blockquote {
+    border-left: 1px solid black;
+    padding-left: 1em;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+h1.site-title {
+    margin-bottom: 0;
+}
+
+p.site-description {
+    margin-top: 0;
+}
+
+.site-title a,
+.entry-title a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#page {
+    text-align: left;
+    max-width: 34rem;
+    margin: 4rem auto;
+}
+
+.entry,
+.site-footer {
+    margin: 2rem 0;
+}
+
+.main-navigation {
+    font-size: 90%;
+    display: none;
+}
+
+.main-navigation ul {
+    padding: 0;
+    text-align: right;
+    list-style-type: none;
+}
+
+.main-navigation li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.site-header,
+.site-footer,
+.site-content {
+    padding: 0 1em;
+}
+
+.site-footer { display: none; }
+
+.entry-content {
+    text-align: justify;
+}
+
+.entry-footer {
+    text-align: right;
+}
+
+.posts-navigation {
+    margin-top: 1em;
+}
